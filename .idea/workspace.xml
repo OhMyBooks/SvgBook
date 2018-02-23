@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="812c0270-30e8-4f62-9c4a-50de93cf6af6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.js" afterPath="$PROJECT_DIR$/config.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elements/base.md" afterPath="$PROJECT_DIR$/elements/base.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,14 +47,21 @@
         <entry file="file://$PROJECT_DIR$/elements/base.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="289">
-                <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+              <first_editor relative-caret-position="133">
+                <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
                 <folding>
-                  <marker date="1519366885000" expanded="true" signature="221:238" ph="..." />
-                  <marker date="1519366885000" expanded="true" signature="221:393" ph="..." />
-                  <marker date="1519366885000" expanded="true" signature="267:386" ph="..." />
-                  <marker date="1519366885000" expanded="true" signature="296:386" ph="..." />
-                  <marker date="1519366885000" expanded="true" signature="309:380" ph="..." />
+                  <marker date="1519369844000" expanded="true" signature="213:230" ph="..." />
+                  <marker date="1519369844000" expanded="true" signature="213:385" ph="..." />
+                  <marker date="1519369844000" expanded="true" signature="259:378" ph="..." />
+                  <marker date="1519369844000" expanded="true" signature="288:378" ph="..." />
+                  <marker date="1519369844000" expanded="true" signature="301:372" ph="..." />
+                  <marker date="1519369844000" expanded="true" signature="601:968" ph="..." />
+                  <marker date="1519369844000" expanded="true" signature="602:968" ph="..." />
+                  <marker date="1519369844000" expanded="true" signature="660:795" ph="..." />
+                  <marker date="1519369844000" expanded="true" signature="705:795" ph="..." />
+                  <marker date="1519369844000" expanded="true" signature="718:789" ph="..." />
+                  <marker date="1519369844000" expanded="true" signature="804:961" ph="..." />
+                  <marker date="1519369844000" expanded="true" signature="882:955" ph="..." />
                 </folding>
               </first_editor>
               <second_editor />
@@ -231,12 +235,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519352195105</updated>
-      <workItem from="1519352196808" duration="6321000" />
+      <workItem from="1519352196808" duration="9274000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6321000" />
+    <option name="totallyTimeSpent" value="9274000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="23" width="1434" height="825" extended-state="6" />
@@ -340,14 +344,21 @@
     <entry file="file://$PROJECT_DIR$/elements/base.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="289">
-            <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <first_editor relative-caret-position="133">
+            <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
             <folding>
-              <marker date="1519366885000" expanded="true" signature="221:238" ph="..." />
-              <marker date="1519366885000" expanded="true" signature="221:393" ph="..." />
-              <marker date="1519366885000" expanded="true" signature="267:386" ph="..." />
-              <marker date="1519366885000" expanded="true" signature="296:386" ph="..." />
-              <marker date="1519366885000" expanded="true" signature="309:380" ph="..." />
+              <marker date="1519369844000" expanded="true" signature="213:230" ph="..." />
+              <marker date="1519369844000" expanded="true" signature="213:385" ph="..." />
+              <marker date="1519369844000" expanded="true" signature="259:378" ph="..." />
+              <marker date="1519369844000" expanded="true" signature="288:378" ph="..." />
+              <marker date="1519369844000" expanded="true" signature="301:372" ph="..." />
+              <marker date="1519369844000" expanded="true" signature="601:968" ph="..." />
+              <marker date="1519369844000" expanded="true" signature="602:968" ph="..." />
+              <marker date="1519369844000" expanded="true" signature="660:795" ph="..." />
+              <marker date="1519369844000" expanded="true" signature="705:795" ph="..." />
+              <marker date="1519369844000" expanded="true" signature="718:789" ph="..." />
+              <marker date="1519369844000" expanded="true" signature="804:961" ph="..." />
+              <marker date="1519369844000" expanded="true" signature="882:955" ph="..." />
             </folding>
           </first_editor>
           <second_editor />
