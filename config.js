@@ -13,7 +13,7 @@ const elements = [
   { title: '描述性元素', path: '/elements/description'},
   { title: '滤镜元素', path: '/bar', matchPath: /^\/bar/ },
 
-  { title: '渐变元素', path: '/bar', matchPath: /^\/bar/ },
+  { title: '渐变元素', path: '/elements/gradient'},
   { title: '图形元素', path: '/bar', matchPath: /^\/bar/ },
   { title: '光源元素', path: '/bar', matchPath: /^\/bar/ },
   { title: '形状元素', path: '/bar', matchPath: /^\/bar/ },
