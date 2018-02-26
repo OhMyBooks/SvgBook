@@ -18,7 +18,7 @@ const elements = [
   { title: '结构元素', path: '/elements/construction'},
 
   { title: '文本内容元素', path: '/elements/text'},
-  { title: '未分类元素', path: '/bar', matchPath: /^\/bar/ },
+  { title: '未分类元素', path: '/elements/unknow'},
 ]
 
 const attribute = [
