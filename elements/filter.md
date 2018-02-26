@@ -1,4 +1,5 @@
 # 滤镜元素
+- `<filter>` 滤镜容器
 - `<feBlend>`
 - `<feColorMatrix>`
 - `<feComponentTransfer>`
@@ -15,6 +16,23 @@
 - `<feSpecularLighting>`
 - `<feTile>`
 - `<feTurbulence>`
+
+
+## `<filter>` 滤镜容器
+>filter元素作用是作为原子滤镜操作的容器。它不能直接呈现。可以利用目标SVG元素上的filter属性引用一个滤镜
+
+#### 属性
+- `x`
+- `y`
+- `width`
+- `height`
+- `filterRes`
+- `filterUnits`
+- `primitiveUnits`
+- `xlink:href`
+
+#### 示例
+>参考下面
 
 ## `<feBlend>` 
 >feBlend滤镜把两个对象组合在一起，使它们受特定的混合模式控制。这类似于图像编辑软件中混合两个图层。该模式由属性mode定义
