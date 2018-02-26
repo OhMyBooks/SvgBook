@@ -15,7 +15,7 @@ const elements = [
 
   { title: '渐变元素', path: '/elements/gradient'},
   { title: '光源元素', path: '/elements/light'},
-  { title: '结构元素', path: '/bar', matchPath: /^\/bar/ },
+  { title: '结构元素', path: 'elements/construction'},
 
   { title: '文本内容元素', path: '/elements/text'},
   { title: '未分类元素', path: '/bar', matchPath: /^\/bar/ },
