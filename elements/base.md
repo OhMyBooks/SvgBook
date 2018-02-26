@@ -1,10 +1,11 @@
-# 基本形状元素
+# 形状元素
 - `<circle>` 圆形 
 - `<rect>` 矩形 
 - `<ellipse>` 椭圆 
 - `<line>` 线
 - `<polygon>` 闭合多边形 
 - `<polyline>` 非闭合多边形 
+- `path` 路径
 
 
 
@@ -129,5 +130,21 @@
 <svg width="820" height="120">
     <polyline points="20,20 200,20 110,100" style="fill:rgba(24, 144, 255, 0.6);stroke:rgb(24, 144, 255);stroke-width:3"/>
     <polyline points="220,20 400,20 310,100 130,100" style="fill:rgba(250, 204, 20, 0.6);stroke:rgb(250, 204, 20);stroke-width:3"/>
+</svg>
+````
+
+---
+
+## `<path>` 路径
+>path元素是用来定义形状的通用元素。所有的基本形状都可以用path元素来创建
+
+#### 属性
+- `d` 路径信息
+- `pathLength` 以用户的单位长度来估算整个路径的长度
+
+#### 示例
+````html
+<svg width="100%" height="100%" viewBox="0 0 400 400">
+  <path d="M 100 100 L 300 100 L 200 300 z" fill="orange" stroke="black" stroke-width="3" />
 </svg>
 ````
