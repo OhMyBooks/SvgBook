@@ -11,7 +11,7 @@ const elements = [
   { title: '容器元素', path: '/elements/container'},
   { title: '动画元素', path: '/elements/animate'},
   { title: '描述性元素', path: '/elements/description'},
-  { title: '滤镜元素', path: '/bar', matchPath: /^\/bar/},
+  { title: '滤镜元素', path: '/elements/filter'},
 
   { title: '渐变元素', path: '/elements/gradient'},
   { title: '光源元素', path: '/elements/light'},
