@@ -11,12 +11,10 @@ const elements = [
   { title: '容器元素', path: '/elements/container'},
   { title: '动画元素', path: '/elements/animate'},
   { title: '描述性元素', path: '/elements/description'},
-  { title: '滤镜元素', path: '/bar', matchPath: /^\/bar/ },
+  { title: '滤镜元素', path: '/bar', matchPath: /^\/bar/},
 
   { title: '渐变元素', path: '/elements/gradient'},
-  { title: '图形元素', path: '/bar', matchPath: /^\/bar/ },
-  { title: '光源元素', path: '/bar', matchPath: /^\/bar/ },
-  { title: '形状元素', path: '/bar', matchPath: /^\/bar/ },
+  { title: '光源元素', path: '/elements/light'},
   { title: '结构元素', path: '/bar', matchPath: /^\/bar/ },
 
   { title: '文本内容元素', path: '/elements/text'},
