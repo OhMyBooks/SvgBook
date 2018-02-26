@@ -19,7 +19,7 @@ const elements = [
   { title: '形状元素', path: '/bar', matchPath: /^\/bar/ },
   { title: '结构元素', path: '/bar', matchPath: /^\/bar/ },
 
-  { title: '文本内容元素', path: '/bar', matchPath: /^\/bar/ },
+  { title: '文本内容元素', path: '/elements/text'},
   { title: '文本子内容元素', path: '/bar', matchPath: /^\/bar/ },
   { title: '未分类元素', path: '/bar', matchPath: /^\/bar/ },
 ]
