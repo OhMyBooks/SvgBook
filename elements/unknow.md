@@ -6,10 +6,9 @@
 - `<foreignObject>` 截图/应用css
 - `<mpath>` 外部运动路径
 - `<script>` 脚本
+- `<style>` 同html的html
 - `<stop>` 渐变坡度
-- `<style>`
-- `<view>`
-- `<vkern>`
+- `<view>` 视口
 - `<font>` 文字布局字体
 - `<font-face>` 字体的外部属性
 - `<font-face-format>` 引用的字体的类型
@@ -19,6 +18,7 @@
 - `<color-profile>` 颜色配置(废弃)
 - `<glyphRef>` 替代字形(废弃)
 - `<hkern>` 字距处理(废弃)
+- `<vkern>` 字距处理(废弃)
 
 
 ## `<clipPath>` 剪切路径
@@ -97,6 +97,11 @@
 
 ---
 
+## `<style>` 同html的style
+>style元素元素样式表直接在SVG内容中间嵌入。SVG的style元素的属性与HTML中的相应的元素并无二致（请阅读HTML的style元素
+
+---
+
 ## `<stop>` 渐变坡度
 >一个渐变上的颜色坡度，是用stop元素定义的。stop元素可以是linearGradient元素或者radialGradient元素的子元素
 
@@ -117,6 +122,20 @@
   <rect fill="url(#MyGradient)" stroke="black" stroke-width="1" x="10" y="20" width="200" height="20"/>
 </svg>
 ````
+
+---
+
+## `<view>`
+>view元素是查看图片的一个限定方法，就像一个缩放级别或者一个详细视图
+
+#### 属性
+- `viewBox` 图形伸缩的容器元素
+- `preserveAspectRatio` 缩放比
+- `zoomAndPan`
+- `viewTarget`
+
+
+#### 示例
 
 
 ---
@@ -165,3 +184,4 @@ altGlyphItem元素利用altGlyph元素提供了一组候选符号替换, 更多�
 ## `<color-profile>` 颜色配置(废弃)
 ## `<glyphRef>` 替代字形(废弃)
 ## `<hkern>` 字距处理(废弃)
+## `<vkern>` 字距处理(废弃)
