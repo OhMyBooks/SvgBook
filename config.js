@@ -1,11 +1,3 @@
-const charts = [
-  { title: '柱状图Bar', path: '/bar', matchPath: /^\/bar/ },
-  { title: '折线图Line', path: '/bar', matchPath: /^\/bar/ },
-  { title: '散点图Scatter', path: '/bar', matchPath: /^\/bar/ },
-  { title: '箱线图Boxplot', path: '/bar', matchPath: /^\/bar/ },
-  { title: '饼图Pie', path: '/bar', matchPath: /^\/bar/ },
-]
-
 const elements = [
   { title: '形状元素', path: '/elements/base'},
   { title: '容器元素', path: '/elements/container'},
@@ -21,7 +13,7 @@ const elements = [
   { title: '未分类元素', path: '/elements/unknow'},
 ]
 
-const attribute = [
+const subjects = [
   { title: '动画事件属性', path: '/bar', matchPath: /^\/bar/ },
   { title: '动画属性目标属性', path: '/bar', matchPath: /^\/bar/ },
   { title: '动画定时属性', path: '/bar', matchPath: /^\/bar/ },
@@ -44,16 +36,8 @@ docute.init({
     default: [
       {title: '主页', path: '/home'},
       {title: 'Svg元素', path: '/element', type: 'dropdown', items: elements},
-      {title: 'Svg属性', path: '/attribute', type: 'dropdown', items: attribute},
-      {title: '更新日志', path: '/changelog'},
-      {title: '图表', path: '/chart', type: 'dropdown', items: charts},
-
-
-      // {title: 'Plugins', path: '/plugins'},
-      // {title: 'Command-Line Tool', path: '/cli'},
-      // {title: 'Changelog', path: '/changelog', source: 'https://raw.githubusercontent.com/egoist/docute/master/CHANGELOG.md'},
-      // {title: 'Languages', type: 'dropdown', items: langs}
-    ],
+      {title: '专题', path: '/attribute', type: 'dropdown', items: subjects},
+    ]
   },
   // icons: [
   //   {
