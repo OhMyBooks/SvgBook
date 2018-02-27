@@ -5,8 +5,8 @@
 - `<cursor>` 自定义指针
 - `<foreignObject>` 截图/应用css
 - `<mpath>` 外部运动路径
-- `<script>`
-- `<stop>`
+- `<script>` 脚本
+- `<stop>` 渐变坡度
 - `<style>`
 - `<view>`
 - `<vkern>`
@@ -70,6 +70,55 @@
     </foreignObject>
 </svg>
 ````
+
+---
+
+## `<script>` 脚本
+
+#### 属性
+- `type`
+- `xlink:href`
+
+#### 示例
+````html
+<svg>
+  <script type="text/javascript">
+    function change(evt) {
+      var target = evt.target
+      var radius = target.getAttribute("r")
+      radius = radius == 15 ? 45 : 15
+      target.setAttribute("r",radius)
+   }
+  </script>
+
+  <circle cx="50" cy="50" r="45" fill="green" onclick="change(evt)" />
+</svg>
+````
+
+---
+
+## `<stop>` 渐变坡度
+>一个渐变上的颜色坡度，是用stop元素定义的。stop元素可以是linearGradient元素或者radialGradient元素的子元素
+
+#### 属性
+- `offset` 坡度值
+- `stop-color` 渐变停止时的颜色
+- `stop-opacity` 渐变停止时的透明度
+
+#### 示例
+````html
+<svg>
+  <defs>
+    <linearGradient id="MyGradient">
+      <stop offset="5%" stop-color="#F60" />
+      <stop offset="95%" stop-color="#FF6" />
+    </linearGradient>
+  </defs>
+  <rect fill="url(#MyGradient)" stroke="black" stroke-width="1" x="10" y="20" width="200" height="20"/>
+</svg>
+````
+
+
 ---
 
 ## `<mpath>` 外部运动路径
@@ -100,7 +149,7 @@ altGlyphItem元素利用altGlyph元素提供了一组候选符号替换, 更多�
 ## `<font-face>` 字体的外部属性
 >font-face元素相当于CSS的@font-face规则声明，font-face元素定义了一个字体的外部属性，更多参考:[MDN: font-face](https://developer.mozilla.org/zh-CN/docs/Web/SVG/Element/font-face)
 
-## `<font-face-format>` 引用的字体的类型
+## `<font-face-format>` 引用字体类型
 >font-face-format元素描述了它的父<font-face-uri>元素引用的字体的类型, 更多参考:[MDN: font-face-format](https://developer.mozilla.org/zh-CN/docs/Web/SVG/Element/font-face-format)
 
 ## `<font-face-name>` 本地的字体副本
