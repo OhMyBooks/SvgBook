@@ -28,9 +28,7 @@ docute.init({
   // },
   debug: true,
   // home: 'https://raw.githubusercontent.com/egoist/docute/master/README.md',
-  // repo: 'egoist/docute',
-  // twitter: 'rem_rin_rin',
-  // 'edit-link': 'https://github.com/egoist/docute/blob/master/docs/',
+  repo: 'ckinmind/SvgBook',
   tocVisibleDepth: 4,
   nav: {
     default: [
@@ -39,14 +37,6 @@ docute.init({
       {title: '专题', path: '/attribute', type: 'dropdown', items: subjects},
     ]
   },
-  // icons: [
-  //   {
-  //     label: '关注我的微博',
-  //     svgId: 'i-weibo',
-  //     svgClass: 'weibo-icon',
-  //     link: 'http://weibo.com/zengxinyu'
-  //   }
-  // ],34hyyyyyyyyyyyyik
   plugins: [
     docuteIframe(),
     docsearch({
