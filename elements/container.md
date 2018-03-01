@@ -213,10 +213,15 @@
 
 ## `<symbol>` 
 >symbol元素用来定义一个图形模板对象，它可以用一个<use>元素实例化。symbol元素对图形的作用是在同一文档中多次使用，添加结构和语义。结构丰富的文档可以更生动地呈现出来，类似讲演稿或盲文，从而提升了可访问性。注意，一个symbol元素本身是不呈现的。只有symbol元素的实例（亦即，一个引用了symbol的use元素）才能呈现
+>一个symbol元素可以有preserveAspectRatio和viewBox属性。而g元素不能拥有这些属性。因此相比于在defs元素中使用g的方式来复用图形，使用symbol元素也许是一个更好的选择
 
 #### 属性
 - `preserveAspectRatio`
 - `viewBox`
+
+#### 参考
+- [SVG基础 | SVG defs元素、symbol元素和use元素](http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/201506132029.html)
+
 
 #### 示例
 ````html
