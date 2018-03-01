@@ -52,6 +52,8 @@
            * 长度大于1，表示冒号后面有数字，这个就是自定义的iframe的高度
            */
           var langArr = p1.split(':');
+          console.log('------p1', p1)
+          iframeHeight = 'auto'
           if (langArr.length > 1) {
             iframeHeight = langArr[1];
           }
@@ -90,7 +92,6 @@
 
           if (iframeHeight !== 'auto') {
             iframe.height = iframeHeight + 'px';
-            iframeHeight = 'auto'
           }
 
           iframe.sandbox = sandbox;
