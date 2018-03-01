@@ -4,7 +4,7 @@
 
 ## 示例
 
-#### 矩形填充
+#### 矩形(rect) 填充
 
 ````html:300
 <svg height="300px" width="100%">
@@ -26,20 +26,31 @@
 </svg>
 ````
 
-#### 圆形填充
-````html:300
-<svg height="300px" width="100%">
+#### 圆形(circle)/路径(path) 填充
+````html:500
+<style>
+ body {
+     background: #18222F;
+ }
+</style>
+<svg height="500px" width="100%">
     <defs>
-        <linearGradient id="gradient">
+        <linearGradient id="lg3">
             <stop stop-color="#6E4AE2" offset="0%"></stop>
             <stop stop-color="#78F8EC" offset="100%"></stop>
         </linearGradient>
-        <linearGradient id="gradient-background">
+        <linearGradient id="lg4">
             <stop stop-color="rgba(0, 0, 0, 0.2)" offset="0%"></stop>
             <stop stop-color="rgba(0, 0, 0, 0.05)" offset="100%"></stop>
         </linearGradient>
     </defs>
-    
-    <circle cx="200" cy="200" r="175" fill="url(#gradient-background)"></circle>
+    <path fill="none" stroke="url(#lg3)" stroke-width="50" transform="translate(25,25)" class="animate-draw" 
+        d="M 294.7957435375205 302.56950979874705 A 175 175 0 1 0 175 350">
+    </path>
+    <circle cx="200" cy="200" r="175" fill="url(#lg4)"></circle>
+    <text x="215.23809523809524" y="228.57142857142858" font-family="Century Gothic, Lato" font-size="114.28571428571429" fill="#78F8EC" text-anchor="middle">
+        88<tspan font-size="38.095238095238095" dy="-45.714285714285715">%</tspan>
+    </text>
+    <path d="M 0 0 40 0 20 -26.666666666666668 0 0 Z" fill="#97F8F0" opacity="0.6" transform="translate(180,286.66666666666663)"></path>
 </svg>
 ````
