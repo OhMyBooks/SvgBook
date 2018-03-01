@@ -16,6 +16,7 @@ const elements = [
 const subjects = [
   { title: '属性分类专题', path: '/subjects/classify'},
   { title: '渐变填充专题', path: '/subjects/gradient'},
+  { title: '材质填充专题', path: '/subjects/pattern'},
   { title: '动画定时属性', path: '/bar', matchPath: /^\/bar/ },
 ]
 
