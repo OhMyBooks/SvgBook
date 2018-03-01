@@ -1,6 +1,6 @@
 # 渐变元素
 - `<linearGradient>` 线性渐变元素
-- `<radialGradient>` 
+- `<radialGradient>` 径向渐变元素
 
 ##  `<linearGradient>` 线性渐变元素
 
