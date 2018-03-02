@@ -2,11 +2,11 @@
 
 ## 涉及元素
 
+https://www.svgbackgrounds.com/#protruding-squares
 
-#### pattern
+#### 案例1
 ````html:500
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-width="100%" height="100%">
+<svg width="100%" height="100%">
     <defs>
         <pattern id="waves" patternUnits="userSpaceOnUse" width="230.4" height="221.7" patternTransform="scale(.5)">
             <defs>
@@ -17,7 +17,7 @@ width="100%" height="100%">
             		<circle stroke-width="7" r="32.5" />
             		<circle stroke-width="7" r="13.2" />
             	</g>
-        </defs>
+            </defs>
             <use x="229.9" y="0.7" xlink:href="#wave" />
             <use x="114.9" y="55.3" xlink:href="#wave" />
             <use x="-114.9" y="55.3" xlink:href="#wave" />
@@ -31,8 +31,45 @@ width="100%" height="100%">
             <use x="114.9" y="277.2" xlink:href="#wave" />
             <use x="-114.9" y="277.2" xlink:href="#wave" />
             <use x="345.1" y="277.2" xlink:href="#wave" />
-    </pattern>
+        </pattern>
     </defs>
-<rect width="100%" height="100%" fill="url(#waves)" />
+    <rect x="20" y="40" width="500" height="300" fill="url(#waves)" />
+</svg>
+````
+
+---
+
+#### 案例2
+````html:400
+<style>
+body {
+  background: black;
+}
+.crop-shapes {
+  width:345px;
+  position:absolute;
+  right:0;
+  left:0;
+  top:0;
+  bottom:0;
+  margin:auto;
+}
+</style>
+<svg class='crop-shapes'>
+    <defs>
+        <pattern id="img1" patternUnits="userSpaceOnUse" width="100%" height="650">
+            <image class='twombly' xlink:href="http://gastv.mx/wp-content/uploads/2014/05/jumex.jpg" x="-30" y="-30" width="380" height="267" />
+        </pattern>
+
+    </defs>
+   
+  <circle class='circ' cx="50" cy="50" r="50" fill="url(#img1)" filter="url(#sparklin)" onmouseover="evt.target.setAttribute('opacity', '0.5');"
+13
+onmouseout="evt.target.setAttribute('opacity','1)');"/>
+  
+  <rect x="110" y="0" width="100" height="100" stroke="black" fill="url(#img1)" filter="url(#sparklin)"/>
+  
+  <polygon x="10" points="270,0  220,100 320,100" fill="url(#img1)" filter="url(#sparklin)"/>
+  
 </svg>
 ````
