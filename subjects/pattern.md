@@ -1,6 +1,11 @@
 # 材质填充专题
 
 ## 涉及元素
+#### patternUnits
+>pattern有两种填充方式：objectBoundingBox和userSpaceOnUse
+
+- `objectBounding` 在指定区域内，规定沿x轴和y轴平铺指定数量的图案, 默认值
+- `userSpaceOnUse` 指定width和height来间接规定图案平铺的数量，width和height被限制在0~1，或者0%~100%之间，即宽度或高度占填充区域高度或宽度的百分比。可想而知20%放5个，40%放2.5个
 
 https://www.svgbackgrounds.com/#protruding-squares
 
