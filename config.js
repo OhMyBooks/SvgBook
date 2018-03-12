@@ -14,6 +14,7 @@ const elements = [
 ]
 
 const subjects = [
+  { title: '动画专题', path: '/subjects/aniamte'},
   { title: '属性分类专题', path: '/subjects/classify'},
   { title: '渐变填充专题', path: '/subjects/gradient'},
   { title: '材质填充专题', path: '/subjects/pattern'},
