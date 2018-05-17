@@ -22,6 +22,10 @@ const subjects = [
   { title: '动画定时属性', path: '/bar', matchPath: /^\/bar/ },
 ]
 
+const questions = [
+  { title: '文字对齐方式', path: '/questions/text-align'},
+]
+
 docute.init({
   landing: 'landing.html',
   // announcement(route) {
@@ -38,6 +42,7 @@ docute.init({
       {title: '主页', path: '/home'},
       {title: 'Svg元素', path: '/element', type: 'dropdown', items: elements},
       {title: '专题', path: '/attribute', type: 'dropdown', items: subjects},
+      {title: '问题', path: '/question', type: 'dropdown', items: questions},
     ]
   },
   plugins: [
