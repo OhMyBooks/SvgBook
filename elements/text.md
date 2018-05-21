@@ -18,6 +18,22 @@
 - `rotate` 
 - `textLength` 长度
 - `lengthAdjust` 控制文本如何被拉伸或压缩到textLength长度
+- `text-anchor` text-anchor
+  -  `start` 左对齐
+  - `middle` 居中对齐
+  - `end` 右对齐
+- `alignment-baseline` 基线对齐方式
+    - `alphabetic`
+    - `ideographic`
+    - `hanging`
+    - `mathematical`
+    - `central`
+    - `middle`   
+     
+     
+<p class="tip">
+   关于<code>text-anchor</code>和<code>alignment-baseline</code>可以参考问题 <a href="#/questions/text-align">文字对齐方式</a>
+</p>   
 
 #### 参考
 - [MDN: text](https://developer.mozilla.org/zh-CN/docs/Web/SVG/Element/text)
