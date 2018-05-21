@@ -14,7 +14,6 @@
 - `y` y轴坐标
 - `dx` x轴方向上的偏移
 - `dy` y轴方向上的偏移
-- `text-anchor` 文本对齐方式(开头、中间、末尾对齐)
 - `rotate` 
 - `textLength` 长度
 - `lengthAdjust` 控制文本如何被拉伸或压缩到textLength长度
